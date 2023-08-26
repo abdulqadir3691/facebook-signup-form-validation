@@ -1,0 +1,68 @@
+.logo {
+  height: 100px;
+  width: 200px;
+  align-items: center;
+  justify-content: center;
+}
+.form {
+  width: 550px;
+  height: 550px;
+  box-shadow: 0px 1px 3px 1px #aaa;
+  background: white;
+  border-radius: 5px;
+}
+.first_title {
+  /* font-size: 25px; */
+  font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+  color: #1f1f1f;
+}
+.sub_title_4 {
+  font-size: 13px;
+  color: #000000;
+  padding-left: 10px;
+
+  font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+}
+.sub_title_4 a {
+  text-decoration: none;
+  color: rgb(122, 122, 218);
+  font-size: 13px;
+  font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+}
+.submit {
+  color: white;
+  background: #0ebd02;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  /* Your responsive styles for tablets */
+  form {
+    width: 100%;
+    background-size: auto;
+    padding-left: 10px;
+    height: 100%;
+  }
+  .logo {
+    height: 100px;
+    width: 200px;
+    padding-left: 20px;
+  }
+  .sur-name {
+    margin-top: 6px;
+  }
+}
+
+/* Media query for devices with a maximum width of 480px (typical smartphones) */
+@media (max-width: 480px) {
+  .form {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+  }
+  .logo {
+    text-align: center;
+  }
+}
